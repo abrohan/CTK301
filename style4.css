@@ -1,0 +1,28 @@
+/* CSS */
+
+
+body{
+  font-family: sans-serif;
+  background-image: url(Redbird.jpg);
+  background-repeat: no-repeat;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.modifiedhead{
+  font-style: italic;
+font-weight: normal;
+color: #ff9900
+}
+
+.imagemodify{
+  border: 20px solid #000000;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+}
