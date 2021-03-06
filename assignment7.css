@@ -1,0 +1,102 @@
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 5px solid #0080FF;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: 150px auto auto;
+
+ }
+
+ nav li {
+   display: inline-block;
+   width:200px;
+   border: 1px solid #0080FF;
+   background-color: #0080FF;
+   margin: 10px;
+ }
+
+ nav li a{
+   text-decoration: none;
+   color: #ffffff;
+   font-family: Helvetica;
+ }
+
+.tutorial{
+  text-align: justify;
+  font-weight: bold;
+}
+
+h2{
+  color: #0080FF;
+  border-style: solid;
+border-top: #0080FF;
+border-right: #0080FF;
+border-left: #0080FF;
+}
+
+footer{
+  background-color: #FF0000;
+  color: #0080FF;
+  border-top: 5px solid #0080ff;
+}
+
+main{
+  padding: 15px
+}
+
+.floathargreeve{
+  float: left;
+  width: 400px;
+  border: 5px solid #0080FF;
+  margin: 0 15px 15px 0;
+}
+
+h1 a{
+  color: #ffffff;
+  text-decoration:none;
+  font-style: italic;
+}
+
+header{
+  background-image: linear-gradient(#00BFFF,#0080FF);
+    background-size: 150px;
+}
+
+nav li:hover{
+  background-color: #FF0000;
+}
+
+a:hover{
+  color: #00ff00;
+}
+
+span{
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.floatadademy{
+  float: right;
+  width: 400px;
+  border: 5px solid #0080FF;
+  margin: 0 15px 15px 0;
+}
+
+.floatAllison{
+  width: 250px;
+  border: 5px solid #0080FF;
+  margin: 0 15px 15px 0;
+}
+
+.floatDiego{
+  width: 250px;
+  border: 5px solid #0080FF;
+  margin: 0 15px 15px 0;
+}
+
+.floatLuther{
+  width: 250px;
+  border: 5px solid #0080FF;
+  margin: 0 15px 15px 0;
+}
