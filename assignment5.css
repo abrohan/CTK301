@@ -1,13 +1,13 @@
-.poster{
- margin-left: auto;
- margin-right: auto;
- display: block;
- }
+body{
+  background: url(Soul.png);
+  background-repeat: no-repeat;
+  width: 600px
+}
 
 .soultext{
   font-weight: bold;
     font-family: Arial, Helvetica, ;
-  text-align: center;
+  text-align: right;
   color: #FFFFFF;
 }
 
@@ -16,13 +16,14 @@ h1{
   font-weight: bold;
   text-align: center;
   color: #2E9AFE;
-  font-size: 75px
+  font-size: 150px
 }
 
 .PG{
 display: block;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 .description{
@@ -30,17 +31,22 @@ margin-right: auto;
   font-weight: bold;
   color: #2E9AFE;
   text-align: center;
+  padding-top: 450px
 }
 
 a{
   font-weight: bold;
     color: #2E9AFE;
     text-decoration: none;
-  border-left: 50px;
+padding-left: 215px;
   text-align: justify, center;
 }
 
 a:hover{
   text-decoration: underline;
   color: #FE9A2E
+}
+
+.O{
+  color: #FF8000;
 }
