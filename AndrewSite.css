@@ -1,0 +1,52 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header{
+  grid-column: span 12;
+  background-color: #1263EB;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 80;
+  text-transform: uppercase;
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+nav{
+  grid-column: span 10;
+  background-color: #A100FF;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+margin-bottom: 48px;
+}
+
+nav li a{
+  display: block;
+  background-color: #A100FF;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 80;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 24px;
+}
