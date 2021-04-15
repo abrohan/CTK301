@@ -74,3 +74,9 @@ nav li a:hover{
 h1{
   padding-top: 50px;
 }
+
+.Projectimg{
+  Width:300px;
+  Height:300px;
+  Border:3px solid #777;
+}
