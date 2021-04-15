@@ -1,0 +1,82 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+header{
+  grid-column: span 12;
+  background-color: #1263EB;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 100px;
+  box-shadow: 10px 10px 10px #666;
+  text-shadow: 4px 4px 4px #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  grid-column: span 12;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+margin-bottom: 48px;
+}
+
+nav li a{
+  display: block;
+  background-color: #A100FF;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border: 3px solid #777;
+  border-radius: 10px;
+  text-shadow: 3px 3px 3px #000;
+  transition: background-color 1s;
+}
+
+nav li a:hover{
+  background-color: green;
+}
+
+h1{
+  padding-top: 50px;
+}
+
+.Projectimg{
+  Width:300px;
+  Height:300px;
+  Border:3px solid #777;
+}
