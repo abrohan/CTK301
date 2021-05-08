@@ -1,5 +1,6 @@
 body {
   background-color: #999999;
+  background-image: url(Images/brawling.jpg);
 }
 
 #wrapper {
@@ -65,6 +66,8 @@ nav li a{
   border-radius: 10px;
   text-shadow: 3px 3px 3px #000;
   transition: background-color 1s;
+  box-shadow: 10px 10px 10px #666;
+  text-shadow: 4px 4px 4px #000;
 }
 
 nav li a:hover{
@@ -77,16 +80,44 @@ h1{
 
 .Projectimg{
   Width:300px;
-  Height:300px;
 }
 
 section{
   grid-column:span 4;
   padding-left: 50px;
     border-radius: 10px #777;
+    font-family: Helvetica
+}
+
+section h2{
+  text-decoration: underline;
+  color: green;
 }
 
 section h4{
   text-decoration: underline;
   font-weight: bold;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+.aboutpara{
+  width:1200px;
+  font-size: 20px;
+  font-family: Helvetica;
+  grid-column: span 12;
+}
+
+footer{
+  background-color: #1263EB;
+  grid-column: span 12;
+  box-shadow: 10px 10px 10px #666;
+  text-shadow: 4px 4px 4px #000;
+  color: white;
+}
+
+.aboutimg{
+  padding-left: 250px;
 }
